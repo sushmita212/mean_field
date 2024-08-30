@@ -1,0 +1,30 @@
+  Kitaev interaction strength= 1.000000
+ h_mag,hx,hy,hz=  0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000
+ iteration:           1
+ iteration:           2
+ h_mag,hx,hy,hz=  0.250000000000000       0.144337567297406     
+  0.144337567297406       0.144337567297406     
+ iteration:           1
+ calling hybrd
+ iteration:           2
+ calling hybrd
+ h_mag,hx,hy,hz=  0.500000000000000       0.288675134594813     
+  0.288675134594813       0.288675134594813     
+ iteration:           1
+ calling hybrd
+ iteration:           2
+ calling hybrd
+ h_mag,hx,hy,hz=  0.750000000000000       0.433012701892219     
+  0.433012701892219       0.433012701892219     
+ iteration:           1
+ calling hybrd
+ iteration:           2
+ calling hybrd
+ h_mag,hx,hy,hz=   1.00000000000000       0.577350269189626     
+  0.577350269189626       0.577350269189626     
+ iteration:           1
+ calling hybrd
+ iteration:           2
+ calling hybrd
+ time taken=  0.202966633333333      mins

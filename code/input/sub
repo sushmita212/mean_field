@@ -1,0 +1,10 @@
+#!/bin/bash -l
+#SBATCH --time=00:05:00
+#SBATCH --ntasks=1
+#SBATCH --mem=20g
+#SBATCH --tmp=20g
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=singh893@umn.edu
+cd $SLURM_SUBMIT_DIR
+module load impi
+./self_consistent.exe
