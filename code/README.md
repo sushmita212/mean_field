@@ -4,7 +4,7 @@ The hybrd solver solves for a set of n equations in n variables. This set of equ
 
 The Hamiltonian I solve for is
 
-$H=K\sum_{\langle ij\rangle_{\alpha}}\sigma_i^a\sigma_j^a+\sum+{i}(h^x,h^y,h^z).(\sigma_i^x+\sigma_i^y+\sigma_i^z)+\kappa*\sum_{<jlk>_{R_2,R_I}}\sigma_j^a\sigma_k^b\sigma_l^c$
+$H=K\sum_{\langle ij\rangle_{\alpha}}\sigma_i^a\sigma_j^a+\sum+{i}(h^x,h^y,h^z).(\sigma_i^x+\sigma_i^y+\sigma_i^z)+\kappa\sum_{<jlk>_{R_2,R_I}}\sigma_j^a\sigma_k^b\sigma_l^c$
 
 
 The sign of \Kappa depends on the sign we take for the zeeman term. If H_zeeman=h.S, \kappa is positive. If H_zeeman=-h.s, Kappa is negative. In this code I have chosen this sign to be positive by default. We can switch the zeeman/kappa term on or off by choosing zeeman_info/kappa_info = 1 or 0 in the input file para.in
