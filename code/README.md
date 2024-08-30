@@ -13,4 +13,4 @@ Note that we can also switch the signs of the zeeman and Kappa term to be negati
 
 This is because in the code I construct my hamiltonian as
 
-H=K*H_K+zeeman_info*H_zeeman+kappa_info*H_kappa
+$H=KH_K+zeeman_infoH_zeeman+kappa_infoH_{\kappa}$
